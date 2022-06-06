@@ -1,0 +1,14 @@
+.background{
+    background-image: url(imagens/unsplash_gioH4gHo0-g.png);
+    height: 800px;
+    width: 1440px;
+    margin: auto;
+}
+
+.cabecalho > h1{
+    color: white;
+}
+
+.cabecalho > ul{
+    color: white;
+}
