@@ -1,14 +1,91 @@
+*{
+    margin: 0 auto;
+}
+
+ul li{
+    list-style: none;
+    margin: 0 10px;
+    display: inline-block;
+    color: white;
+}
+
 .background{
     background-image: url(imagens/unsplash_gioH4gHo0-g.png);
-    height: 800px;
-    width: 1440px;
-    margin: auto;
+    height: 810px;
+    width: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.cabecalho > h1{
+.cabecalho > h2{
     color: white;
+    justify-content: space-between;
+    display: inline-block;
 }
 
-.cabecalho > ul{
+ul .cabecalho li{
     color: white;
+    display: inline-block;
+    
+}
+
+.fotinha{
+    text-align: right;
+}
+
+.escrito{
+    color: white;
+    margin: 100px auto;
+    font-size: 80px;
+    margin-left: 50px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+}
+
+.background1{
+    background-image: url(/imagens/Mobile.png);
+    background-repeat: no-repeat;
+    padding: 200px;
+    text-align: center;
+    background-position: center;
+    margin-top: -190px;
+    
+}
+
+.h4{
+    color: white;
+    font-size: 50px;
+    margin-top: -70px;
+}
+
+.p{
+    color: white;
+    font-size: 25px;
+}
+
+.botao{
+    background-color: #FF753A;
+    border-radius: 50px;
+    color: white;
+    border: white;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.hr{
+    width: 100px;
+    margin: 0 auto;
+    color: #AB0433;
+}
+
+.novos-produtos{
+    text-align: center;
+    color: #505050;
+    font-size: 40px;
 }
