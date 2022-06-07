@@ -1,12 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
     margin: 0 auto;
-}
-
-ul li{
-    list-style: none;
-    margin: 0 10px;
-    display: inline-block;
-    color: white;
 }
 
 .background{
@@ -23,16 +18,25 @@ ul li{
     color: white;
     justify-content: space-between;
     display: inline-block;
-}
-
-ul .cabecalho li{
-    color: white;
-    display: inline-block;
-    
+    font-family: 'Work Sans';
 }
 
 .fotinha{
+    padding: auto;
+    display: inline-flex;
     text-align: right;
+    justify-content: flex-end;
+    margin: 0 auto;
+    background-position: right;
+}
+
+.arrumadinho{
+    text-align: right;
+    display: inline-flex;
+    margin: 0 auto;
+        list-style: none;
+        color: white;
+        font-family: 'Work Sans';
 }
 
 .escrito{
@@ -54,19 +58,21 @@ ul .cabecalho li{
     padding: 200px;
     text-align: center;
     background-position: center;
-    margin-top: -190px;
+    margin-top: -250px;
     
 }
 
 .h4{
     color: white;
     font-size: 50px;
-    margin-top: -70px;
+    margin-top: -50px;
+    font-family: 'Work Sans';
 }
 
 .p{
     color: white;
     font-size: 25px;
+    font-family: 'Work Sans';
 }
 
 .botao{
@@ -76,16 +82,79 @@ ul .cabecalho li{
     border: white;
     padding: 10px;
     font-size: 16px;
+    font-family: 'Work Sans';
 }
 
 .hr{
     width: 100px;
     margin: 0 auto;
-    color: #AB0433;
+    background-color: #AB0433;
+    height: 3px;
+    border: none;
+    border-radius: 3px;
 }
 
 .novos-produtos{
     text-align: center;
     color: #505050;
     font-size: 40px;
+}
+
+.background2{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-position: center;
+    
+    background: radial-gradient(98.56% 98.92% at 1.22% 1.08%, #FBFBFB 0%, #D3D3D3 100%);
+border-radius: 10px 10px 0px 0px;
+}
+
+.preço{
+    display: flex;
+align-items: flex-start;
+padding: 16px 20px 20px;
+gap: 6px;
+background: #FFFFFF;
+border-radius: 0px 0px 10px 10px;
+font-family: 'Work Sans';
+}
+
+.preço > p{
+    display: flex;
+justify-content: center;
+align-items: flex-start;
+padding: 16px 24px 24px;
+gap: 6px;
+background: #FFFFFF;
+border-radius: 0px 0px 10px 10px;
+margin: 0 auto;
+font-family: 'Work Sans';
+}
+
+.position{
+margin: 0 auto;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+}
+
+.background3{
+    background-color: #ECECEC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 88px;
+    gap: 16px;
+    
+}
+
+.background4{
+    background-color: white;
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 10px 10px 0px 0px;
+    background-position: center;
+    
 }
