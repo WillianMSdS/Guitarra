@@ -1,45 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0 auto;
 }
 
-.background{
+.background {
     background-image: url(imagens/unsplash_gioH4gHo0-g.png);
     height: 810px;
-    width: 100%;
-    margin: 0;
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
 }
 
-.cabecalho > h2{
+.cabecalho>h2 {
     color: white;
     justify-content: space-between;
     display: inline-block;
     font-family: 'Work Sans';
 }
 
-.fotinha{
+.fotinha>img {
     padding: auto;
-    display: inline-flex;
+    display: inline-block;
     text-align: right;
-    justify-content: flex-end;
-    margin: 0 auto;
     background-position: right;
+    justify-content: flex-end;
+    align-items: flex-end;
+
 }
 
-.arrumadinho{
+.arrumadinho {
     text-align: right;
-    display: inline-flex;
+    display: inline-block;
     margin: 0 auto;
-        list-style: none;
-        color: white;
-        font-family: 'Work Sans';
+    list-style: none;
+    color: white;
+    font-family: 'Work Sans';
 }
 
-.escrito{
+.arrumadinho>li {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.escrito {
     color: white;
     margin: 100px auto;
     font-size: 80px;
@@ -52,30 +55,30 @@
     letter-spacing: 0.02em;
 }
 
-.background1{
+.background1 {
     background-image: url(/imagens/Mobile.png);
     background-repeat: no-repeat;
     padding: 200px;
     text-align: center;
     background-position: center;
     margin-top: -250px;
-    
+
 }
 
-.h4{
+.h4 {
     color: white;
     font-size: 50px;
     margin-top: -50px;
     font-family: 'Work Sans';
 }
 
-.p{
+.p {
     color: white;
     font-size: 25px;
     font-family: 'Work Sans';
 }
 
-.botao{
+.botao {
     background-color: #FF753A;
     border-radius: 50px;
     color: white;
@@ -85,7 +88,7 @@
     font-family: 'Work Sans';
 }
 
-.hr{
+.hr {
     width: 100px;
     margin: 0 auto;
     background-color: #AB0433;
@@ -94,72 +97,72 @@
     border-radius: 3px;
 }
 
-.novos-produtos{
+.novos-produtos {
     text-align: center;
     color: #505050;
     font-size: 40px;
 }
 
-.background2{
+.background2 {
     display: inline-block;
     margin-left: 50px;
     margin-right: 50px;
     background-position: center;
-    
+
     background: radial-gradient(98.56% 98.92% at 1.22% 1.08%, #FBFBFB 0%, #D3D3D3 100%);
-border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 0px 0px;
 }
 
-.preço{
+.preço {
     display: flex;
-align-items: flex-start;
-padding: 16px 20px 20px;
-gap: 6px;
-background: #FFFFFF;
-border-radius: 0px 0px 10px 10px;
-font-family: 'Work Sans';
+    align-items: flex-start;
+    padding: 16px 20px 20px;
+    gap: 6px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+    font-family: 'Work Sans';
 }
 
-.preço > p{
+.preço {
     display: flex;
-justify-content: center;
-align-items: flex-start;
-padding: 16px 24px 24px;
-gap: 6px;
-background: #FFFFFF;
-border-radius: 0px 0px 10px 10px;
-margin: 0 auto;
-font-family: 'Work Sans';
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px 24px 24px;
+    gap: 6px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+    margin: 0 auto;
+    font-family: 'Work Sans';
 }
 
-.position{
-margin: 0 auto;
-display: inline-flex;
-align-items: center;
-justify-content: center;
+.position {
+    margin: 0 auto;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.background3{
+.background3 {
     background-color: #ECECEC;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 88px;
     gap: 16px;
-    
+
 }
 
-.background4{
+.background4 {
     background-color: white;
     display: inline-block;
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 10px 10px 0px 0px;
     background-position: center;
-    
+
 }
 
-.background5{
+.background5 {
     width: 615.5px;
     height: 487px;
     display: inline-block;
@@ -168,13 +171,105 @@ justify-content: center;
     background-position: center;
 }
 
-.background6{
+.background6 {
     background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 88px;
     gap: 16px;
+
+}
+
+.preço01 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 16px 24px 24px;
+    gap: 6px;
+    background: #ECECEC;
+    border-radius: 0px 0px 10px 10px;
+    margin: 0 auto;
+    font-family: 'Work Sans';
+}
+
+.background7 {
+    display: flex;
+    padding: 32px;
+
+}
+
+.arrumando>h3 {
+    color: white;
+    font-family: 'Work Sans';
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.arrumando>p {
+    color: white;
+    font-family: 'Work Sans';
+    font-size: 18px;
+}
+
+.espaço {
+    margin-bottom: 5px;
+}
+
+.arrumando {
+    border: 10px;
+    background: #252525;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+}
+
+.arrumando01 {
+    border: 10px;
+    background: #EAEAEA;
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+}
+
+.arrumando01>h3 {
+    font-family: 'Work Sans';
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.arrumando01>p {
+    font-family: 'Work Sans';
+    font-size: 18px;
+}
+
+footer {
+
+    justify-content: flex-end;
+}
+
+.rodape {
+    height: 290px;
+    width: 100%;
+    left: 0px;
+    top: 290px;
+    border-radius: 0px;
+    background-color: #505050;
+    justify-content: flex-end;
+    text-align: right;
+    margin-right: 10px;
     
 }
 
+.rodape > h2 {
+    color: white;
+    justify-content: space-between;
+    display: inline-block;
+    font-family: 'Work Sans';
+    justify-content: flex-end;
+    margin-top: 80px;
+    margin-right: 10px;
+}
+
+.background9 {
+    background: #252525;
+    color: #FFFFFF;
+}
