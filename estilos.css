@@ -178,22 +178,3 @@ justify-content: center;
     
 }
 
-.{
-    background: #252525;
-    color: white;
-    display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: flex-start;
-padding: 32px;
-gap: 4px;
-border-radius: 0px 0px 10px 10px;
-
-width: 615.5px;
-height: 122px;
-
-flex: none;
-order: 1;
-align-self: stretch;
-flex-grow: 0;
-}
